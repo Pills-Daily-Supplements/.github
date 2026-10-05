@@ -63,8 +63,8 @@
     <text x="85" y="26" text-anchor="middle" class="chip">⏰ Reminders</text>
     <rect x="184" width="150" height="40" rx="20" fill="#064E3B"/>
     <text x="259" y="26" text-anchor="middle" class="chip">📈 Tracking</text>
-    <rect x="348" width="160" height="40" rx="20" fill="#064E3B"/>
-    <text x="428" y="26" text-anchor="middle" class="chip">🔒 Privacy</text>
+    <rect x="348" width="180" height="40" rx="20" fill="#064E3B"/>
+    <text x="438" y="26" text-anchor="middle" class="chip">🛡️ Safe limits</text>
   </g>
   </g>
 </svg>

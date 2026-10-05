@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-label="Pills – your daily supplements, finally organized">
+  <defs>
+    <clipPath id="card"><rect width="1280" height="420" rx="28"/></clipPath>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1220"/>
+      <stop offset="1" stop-color="#111B2E"/>
+    </linearGradient>
+    <linearGradient id="capA" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#10B981"/>
+      <stop offset="1" stop-color="#34D399"/>
+    </linearGradient>
+    <linearGradient id="capB" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6366F1"/>
+      <stop offset="1" stop-color="#818CF8"/>
+    </linearGradient>
+    <linearGradient id="capC" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#F59E0B"/>
+      <stop offset="1" stop-color="#FBBF24"/>
+    </linearGradient>
+    <style>
+      .title { font: 800 112px -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #F8FAFC; letter-spacing: -4px; }
+      .tag   { font: 500 30px -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #CBD5E1; }
+      .chip  { font: 600 18px -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #6EE7B7; }
+      .float1 { animation: f 6s ease-in-out infinite; }
+      .float2 { animation: f 7s ease-in-out infinite reverse; }
+      .float3 { animation: f 8s ease-in-out infinite; }
+      @keyframes f { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-12px); } }
+    </style>
+  </defs>
+
+  <rect width="1280" height="420" rx="28" fill="url(#bg)"/>
+  <g clip-path="url(#card)">
+  <circle cx="1080" cy="80" r="220" fill="#10B981" opacity="0.10"/>
+  <circle cx="930" cy="380" r="160" fill="#6366F1" opacity="0.10"/>
+
+  <!-- capsules -->
+  <g class="float1">
+    <g transform="translate(900 120) rotate(-30)">
+      <rect x="0" y="0" width="200" height="76" rx="38" fill="#E2E8F0"/>
+      <path d="M38 0 H100 V76 H38 A38 38 0 0 1 38 0 Z" fill="url(#capA)"/>
+      <rect x="18" y="14" width="60" height="10" rx="5" fill="#FFFFFF" opacity="0.45"/>
+    </g>
+  </g>
+  <g class="float2">
+    <g transform="translate(1010 230) rotate(20)">
+      <rect x="0" y="0" width="160" height="62" rx="31" fill="#E2E8F0"/>
+      <path d="M31 0 H80 V62 H31 A31 31 0 0 1 31 0 Z" fill="url(#capB)"/>
+      <rect x="14" y="11" width="48" height="8" rx="4" fill="#FFFFFF" opacity="0.45"/>
+    </g>
+  </g>
+  <g class="float3">
+    <circle cx="880" cy="320" r="34" fill="url(#capC)"/>
+    <rect x="862" y="317" width="36" height="6" rx="3" fill="#FFFFFF" opacity="0.6"/>
+    <circle cx="1180" cy="130" r="22" fill="none" stroke="#34D399" stroke-width="6"/>
+  </g>
+
+  <!-- text -->
+  <text x="80" y="200" class="title">Pills</text>
+  <text x="84" y="256" class="tag">Your daily supplements, finally organized.</text>
+
+  <g transform="translate(84 296)">
+    <rect width="170" height="40" rx="20" fill="#064E3B"/>
+    <text x="85" y="26" text-anchor="middle" class="chip">⏰ Reminders</text>
+    <rect x="184" width="150" height="40" rx="20" fill="#064E3B"/>
+    <text x="259" y="26" text-anchor="middle" class="chip">📈 Tracking</text>
+    <rect x="348" width="160" height="40" rx="20" fill="#064E3B"/>
+    <text x="428" y="26" text-anchor="middle" class="chip">🔒 Privacy</text>
+  </g>
+  </g>
+</svg>
